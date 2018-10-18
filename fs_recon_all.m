@@ -9,7 +9,7 @@
 clear all;
 clc;
 dir_main   = '/Users/aradwa0/MR-data/MTLE_HS';
-v = ('1.7 - dd 15/10/2018');
+v = ('1 - dd 18/10/2018');
 
 % Other dirs
 dir_source_T1 = [dir_main filesep 'NII_all' filesep 'T1s' filesep 'orig'];
