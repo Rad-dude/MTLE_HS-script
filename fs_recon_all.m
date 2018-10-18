@@ -4,6 +4,7 @@
 % We will be doing both the T1 and DTI preproc here
 
 % Info:
+% This is a simple script that loops over your bias corrected T1s and does recon-all on them.
 
 %% Part 1 Configure my stuff...
 clear all;
