@@ -518,7 +518,7 @@ for i = 1:(size(T1s_files,1))
     unix(['source ~/.bash_profile ; tcksift -force -nthreads 7 -term_number 1000000 -act ' dir_DTI_pping filesep b0_pseudo_5ttgen ' '...
         dir_DTI_ready filesep subj_wbrain_msmt_csd_tck ' ' dir_DTI_pping filesep wm_fod_corr_mtn ' ' dir_DTI_ready filesep subj_wbrain_msmt_csd_tck_sfit1]);
     unix(['source ~/.bash_profile ; tcksift2 -force -nthreads 7 -act ' dir_DTI_pping filesep b0_pseudo_5ttgen ' ' dir_DTI_ready filesep subj_wbrain_msmt_csd_tck ...
-        ' ' dir_DTI_pping filesep wm_fod_corr_mtn ' ' dir_DTI_ready filesep 'tract_weights.txt']);
+        ' ' dir_DTI_pping filesep wm_fod_corr_mtn ' ' dir_DTI_ready filesep DTI_sub_base '_tract_weights.txt']);
     % Do we need SIFT1 as well ?
     % mtnormalise to correct for any remaining signal abnormalities or
     % biases
